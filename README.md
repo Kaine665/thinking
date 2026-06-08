@@ -20,9 +20,9 @@ thinking/
 ├── SKILL.md               ← AI 助手的使用说明书
 ├── ROUTER.md              ← 入口：你在做什么类型的思考？
 ├── templates/             ← 填空模板（每个不超过 5 个空）
-│   ├── decision.md        ← 做决定
-│   ├── analysis.md        ← 搞懂一个东西
-│   └── explore.md         ← 想法还很模糊
+│   ├── 当你要做一个决定时.md              ← 做决定
+│   ├── 当你要搞懂一个东西时.md              ← 搞懂一个东西
+│   └── 当你有个模糊的想法，说不清楚时.md    ← 想法还很模糊
 ├── archive/               ← 填完的记录
 ├── META.md                ← 系统本身的反思日志
 └── LAST_SYNC.md           ← 最后一次推送到 GitHub 的时间
@@ -42,9 +42,9 @@ thinking/
 
 或者直接：
 ```
-/think                    # 打开路由
-/think decision           # 直接加载决策模板
-/think meta               # 查看系统状态
+/think                         # 打开路由
+/think 当你要做一个决定时        # 直接加载决策模板
+/think meta                    # 查看系统状态
 ```
 
 ### AI 的角色
